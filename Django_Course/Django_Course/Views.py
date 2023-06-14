@@ -1,0 +1,6 @@
+# i created this file - Utpal Tiwari
+
+from django.http import HttpResponse
+
+def index(request):
+    return HttpResponse("hello uppi bro")
